@@ -59,7 +59,7 @@ const Products = () => {
             </h1>
             <div className='w-full flex justify-between gap-x-3 items-center'>
                 <p className='text-sm w-[65%] text-[#E4E4E7] text-justify pr-6'>
-                    Explore a variety of tailored and adaptable banking products at YourBank, crafted to meet your distinct financial requirements and aspirations.
+                    Explore a variety of tailored and adaptable banking products at FinexVault, crafted to meet your distinct financial requirements and aspirations.
                 </p>
                 <div className="w-fit px-2 flex py-2 rounded-full bg-[#1C1C1C]">
                     <p onClick={() => setIndividual(true)} className={`text-sm text-center px-2 cursor-pointer py-2 rounded-full ${individual ? 'bg-emerald-600' : ''}`}>
