@@ -11,7 +11,7 @@ const navOptions = [
   {
     id: `NAV002`,
     title: `Careers`,
-    url: `/career`,
+    url: `/careers`,
   },
   {
     id: `NAV003`,
@@ -27,7 +27,7 @@ const navOptions = [
 const Header = () => {
   return (
     <div className='w-full'>
-      <div className="w-[90%] max-w-[1200px] mx-auto mt-5 py-3 flex justify-between bg-[#1C1C1C] px-4 rounded-full">
+      <div className="w-[90%] max-w-[1200px] mx-auto mt-5 py-4 flex justify-between bg-[#1C1C1C] px-6 rounded-full">
         <div className="flex gap-x-2">
           <img src={logo} alt="..." className='w-[32px] h-[32px] object-cover' />
           <h2 className='text-[22px] font-[500]'>FinexVault</h2>
@@ -42,7 +42,7 @@ const Header = () => {
           }
         </div>
         <div className="flex gap-x-2">
-          <NavLink to={"/signup"} className={({isActive}) => `px-3 py-2 ${isActive ? "bg-[#262626] rounded-full" : ""} text-sm`}>
+          <NavLink to={"/signup"} className={`px-3 py-2 hover:text-orange-400 text-sm`}>
             Sign up
           </NavLink>
           <NavLink to={"/signin"} className={`px-3 py-2 bg-emerald-600 rounded-full text-sm`}>
