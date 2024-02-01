@@ -122,7 +122,7 @@ const UseCases = () => {
                             For Businesses
                         </h2>
                         <p className='text-sm mt-2 text-[#B3B3B3] text-justify pr-6'>
-                            For businesses, we foster growth through working capital solutions that enhance cash flow optimization. Our customized financing options drive the expansion of your business. Whatever your financial aspirations, YourBank is dedicated to offering the essential tools and support needed to attain them.
+                            For businesses, we foster growth through working capital solutions that enhance cash flow optimization. Our customized financing options drive the expansion of your business. Whatever your financial aspirations, FinexVault is dedicated to offering the essential tools and support needed to attain them.
                         </p>
                         <div className="w-full mt-10 flex justify-between gap-x-4">
                             <div className="flex flex-col">
