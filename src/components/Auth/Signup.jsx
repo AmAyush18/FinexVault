@@ -59,7 +59,7 @@ const Signup = () => {
               <button className="w-[100%] md:w-[48%] bg-emerald-500 text-sm py-4 text-center rounded-full">
                 Sign Up
               </button>
-              <Link to={"signin"} className="w-[100%] md:w-[48%] bg-[#333333] text-sm py-4 text-center rounded-full">
+              <Link to={"/signin"} className="w-[100%] md:w-[48%] bg-[#333333] text-sm py-4 text-center rounded-full">
                 Sign In
               </Link>
               <div className="w-[100%] md:w-[48%] flex items-center">
