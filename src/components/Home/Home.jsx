@@ -4,6 +4,7 @@ import Products from './Products'
 import UseCases from './UseCases'
 import Features from './Features'
 import Faqs from './Faqs'
+import InviteBanner from './InviteBanner'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <UseCases />
       <Features />
       <Faqs />
+      <InviteBanner />
     </div>
   )
 }
