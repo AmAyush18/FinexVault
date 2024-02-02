@@ -11,22 +11,22 @@ const individuals = [
     {
         id: `PROIND001`,
         title: `Managing Personal Finances`,
-        icon: <FaBriefcase className='text-[22px] text-emerald-500' />
+        icon: <FaBriefcase className='text-[22px] text-orange-400' />
     },
     {
         id: `PROIND002`,
         title: `Saving for the Future`,
-        icon: <FaRegSave className='text-[22px] text-emerald-500' />
+        icon: <FaRegSave className='text-[22px] text-orange-400' />
     },
     {
         id: `PROIND003`,
         title: `Homeownership`,
-        icon: <HiHome className='text-[22px] text-emerald-500' />
+        icon: <HiHome className='text-[22px] text-orange-400' />
     },
     {
         id: `PROIND004`,
         title: `Education Funding`,
-        icon: <IoSchoolOutline className='text-[22px] text-emerald-500' />
+        icon: <IoSchoolOutline className='text-[22px] text-orange-400' />
     },
 ];
 
@@ -34,22 +34,22 @@ const businesses = [
     {
         id: `PROBUS001`,
         title: `Startups and Entrepreneurs`,
-        icon: <FaRegChartBar className='text-[22px] text-emerald-500' />
+        icon: <FaRegChartBar className='text-[22px] text-orange-400' />
     },
     {
         id: `PROBUS002`,
         title: `Cash Flow Management`,
-        icon: <FaBusinessTime className='text-[22px] text-emerald-500' />
+        icon: <FaBusinessTime className='text-[22px] text-orange-400' />
     },
     {
         id: `PROBUS003`,
         title: `Business Expansion`,
-        icon: <FaMoneyCheckAlt className='text-[22px] text-emerald-500' />
+        icon: <FaMoneyCheckAlt className='text-[22px] text-orange-400' />
     },
     {
         id: `PROBUS004`,
         title: `Payment Solutions`,
-        icon: <AiOutlineCreditCard className='text-[22px] text-emerald-500' />
+        icon: <AiOutlineCreditCard className='text-[22px] text-orange-400' />
     },
 ];
 
@@ -71,8 +71,8 @@ const UseCases = () => {
                             {
                                 individuals.map((prod) => (
                                     <div key={prod.id} className={`w-[48%] mb-2 flex flex-col items-center bg-[#1A1A1A] rounded-xl gap-y-3 px-5 shadow-xl py-6`}>
-                                        <div className="px-2 py-2 rounded-full bg-emerald-300 bg-opacity-5">
-                                            <div className="px-3 py-3 rounded-full bg-emerald-200 bg-opacity-5">
+                                        <div className="px-2 py-2 rounded-full bg-orange-300 bg-opacity-5">
+                                            <div className="px-3 py-3 rounded-full bg-orange-200 bg-opacity-5">
                                                 {prod.icon}
                                             </div>
                                         </div>
@@ -155,8 +155,8 @@ const UseCases = () => {
                             {
                                 businesses.map((prod) => (
                                     <div key={prod.id} className={`w-[48%] mb-2 flex flex-col items-center bg-[#1A1A1A] rounded-xl gap-y-3 px-5 shadow-xl py-6`}>
-                                        <div className="px-2 py-2 rounded-full bg-emerald-300 bg-opacity-5">
-                                            <div className="px-3 py-3 rounded-full bg-emerald-200 bg-opacity-5">
+                                        <div className="px-2 py-2 rounded-full bg-orange-300 bg-opacity-5">
+                                            <div className="px-3 py-3 rounded-full bg-orange-200 bg-opacity-5">
                                                 {prod.icon}
                                             </div>
                                         </div>

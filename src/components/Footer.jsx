@@ -58,7 +58,7 @@ const Footer = () => {
             <p className='text-sm font-[500]'>Bharat</p>
           </div>
         </div>
-        <div className="w-full mx-auto mt-6 py-4 flex justify-between bg-[#1C1C1C] px-4 rounded-full">
+        <div className="w-full mx-auto mt-6 py-4 flex flex-col md:gap-y-0 gap-y-4 md:flex-row justify-center items-center md:justify-between bg-[#1C1C1C] px-4 rounded-full">
           <div className="flex gap-x-2">
             <div className="flex gap-x-2 items-center px-2 py-2 rounded-full cursor-pointer bg-orange-400 w-[32px] h-[32px]">
               <FaFacebook className='text-[16px] text-[#262626]' />
