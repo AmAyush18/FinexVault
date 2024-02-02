@@ -14,7 +14,7 @@ const Features = () => {
                     Our{" "}
                     <span className='text-orange-400'>Features</span>
                 </h1>
-                <div className='w-full flex justify-between gap-x-3 items-center'>
+                <div className='w-full'>
                     <p className='text-sm md:w-[85%] lg:w-[80%] text-[#E4E4E7] text-justify pr-6'>
                         Discover a myriad of robust functionalities at FinexVault, where you can enjoy a smooth online banking experience, fortified transactions, and tailored financial insights. Our platform is meticulously crafted to elevate and personalize your banking journey, ensuring security and convenience at every step.
                     </p>
