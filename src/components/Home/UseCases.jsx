@@ -91,19 +91,19 @@ const UseCases = () => {
                         </p>
                         <div className="w-full mt-10 flex justify-between gap-x-4">
                             <div className="flex flex-col">
-                                <h1 className='text-5xl text-emerald-500 font-[600]'>64%</h1>
+                                <h1 className='text-3xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>64%</h1>
                                 <p className='text-sm mt-2 text-[#B3B3B3] pr-6'>
                                     Secure Retirement Planning
                                 </p>
                             </div>
                             <div className="flex flex-col">
-                                <h1 className='text-5xl text-emerald-500 font-[600]'>88%</h1>
+                                <h1 className='text-3xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>88%</h1>
                                 <p className='text-sm mt-2 text-[#B3B3B3] pr-6'>
                                     Manageable Debt Consolidation
                                 </p>
                             </div>
                             <div className="flex flex-col">
-                                <h1 className='text-5xl text-emerald-500 font-[600]'>92%</h1>
+                                <h1 className='text-3xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>92%</h1>
                                 <p className='text-sm mt-2 text-[#B3B3B3] pr-6'>
                                     Reducing financial burdens
                                 </p>
@@ -126,19 +126,19 @@ const UseCases = () => {
                         </p>
                         <div className="w-full mt-10 flex justify-between gap-x-4">
                             <div className="flex flex-col">
-                                <h1 className='text-5xl text-emerald-500 font-[600]'>76%</h1>
+                                <h1 className='text-3xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>76%</h1>
                                 <p className='text-sm mt-2 text-[#B3B3B3] pr-6'>
                                     Cash Flow Management
                                 </p>
                             </div>
                             <div className="flex flex-col">
-                                <h1 className='text-5xl text-emerald-500 font-[600]'>83%</h1>
+                                <h1 className='text-3xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>83%</h1>
                                 <p className='text-sm mt-2 text-[#B3B3B3] pr-6'>
                                     Drive Business Expansion
                                 </p>
                             </div>
                             <div className="flex flex-col">
-                                <h1 className='text-5xl text-emerald-500 font-[600]'>59%</h1>
+                                <h1 className='text-3xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>59%</h1>
                                 <p className='text-sm mt-2 text-[#B3B3B3] pr-6'>
                                     Streamline payroll processing
                                 </p>

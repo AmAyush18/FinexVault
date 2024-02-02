@@ -44,7 +44,7 @@ const Footer = () => {
             ))
           }
         </div>
-        <div className="flex gap-x-3 mt-4 mb-2 items-center">
+        <div className="flex md:flex-row flex-col-reverse gap-y-3 md:gap-y-0 gap-x-3 mt-4 mb-2 items-center">
           <div className="flex gap-x-2 items-center">
             <FaEnvelope className='text-[16px] text-emerald-500' />
             <p className='text-sm font-[500]'>amayush18@gmail.com</p>
@@ -58,7 +58,7 @@ const Footer = () => {
             <p className='text-sm font-[500]'>Bharat</p>
           </div>
         </div>
-        <div className="w-full mx-auto mt-6 py-4 flex flex-col md:gap-y-0 gap-y-4 md:flex-row justify-center items-center md:justify-between bg-[#1C1C1C] px-4 rounded-full">
+        <div className="w-full mx-auto mt-6 py-4 flex flex-col md:flex-row justify-center items-center md:justify-between bg-[#1C1C1C] px-4 rounded-xl md:rounded-full">
           <div className="flex gap-x-2">
             <div className="flex gap-x-2 items-center px-2 py-2 rounded-full cursor-pointer bg-orange-400 w-[32px] h-[32px]">
               <FaFacebook className='text-[16px] text-[#262626]' />
@@ -70,7 +70,7 @@ const Footer = () => {
               <FaXTwitter className='text-[16px] text-[#262626]' />
             </div>
           </div>
-          <div className="flex gap-x-2 text-[#B3B3B3] items-center text-sm">
+          <div className="flex gap-x-2 mt-3 md:mt-0 text-[#B3B3B3] items-center text-sm">
             &copy; FinexVault. All Rights Reserved
           </div>
           <div className="flex gap-x-2 text-[#B3B3B3] items-center">
