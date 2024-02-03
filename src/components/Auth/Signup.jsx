@@ -25,7 +25,7 @@ const Signup = () => {
             your account today.
           </p>
           <form className="w-[80%] mx-auto flex flex-col gap-y-4">
-            <div className="w-full flex flex-wrap px-6 mt-10 gap-x-3 gap-y-4">
+            <div className="w-full flex flex-wrap md:px-6 mt-10 gap-x-3 gap-y-4">
               <input
                 type="text"
                 placeholder="Enter Full Name"

@@ -22,7 +22,7 @@ const Signin = () => {
             Welcome back! Please log in to access your account.
           </p>
           <form className="w-[80%] mx-auto flex flex-col gap-y-4">
-            <div className="w-full flex flex-wrap px-6 mt-10 gap-x-3 gap-y-4">
+            <div className="w-full flex flex-wrap md:px-6 mt-10 gap-x-3 gap-y-4">
               <input
                 type="text"
                 placeholder="Enter Email"
@@ -33,7 +33,7 @@ const Signin = () => {
               <input
                 type="text"
                 placeholder="Enter Password"
-                className="w-[100%] md:w-[48%] py-4 px-4 text-sm bg-[#1A1A1A] rounded-full"
+                className="w-[120%] md:w-[48%] py-4 px-4 text-sm bg-[#1A1A1A] rounded-full"
                 value={formData.password}
                 onChange={(e) => setFormData({...formData, password: e.target.value})}
               />
