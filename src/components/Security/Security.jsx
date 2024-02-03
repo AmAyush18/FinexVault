@@ -1,8 +1,11 @@
 import React from 'react'
+import Hero from './Hero'
 
 const Security = () => {
   return (
-    <div>Security</div>
+    <div className='w-full'>
+      <Hero />
+    </div>
   )
 }
 
