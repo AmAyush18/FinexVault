@@ -1,5 +1,5 @@
 import React from 'react'
-import career from '../../assets/conference-1.jpg'
+import career from '../../assets/conference-2.jpg'
 
 const Hero = () => {
   return (
