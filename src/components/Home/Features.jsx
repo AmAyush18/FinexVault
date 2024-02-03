@@ -14,11 +14,9 @@ const Features = () => {
                     Our{" "}
                     <span className='text-orange-400'>Features</span>
                 </h1>
-                <div className='w-full'>
-                    <p className='text-sm md:w-[85%] lg:w-[80%] text-[#E4E4E7] text-justify pr-6'>
-                        Discover a myriad of robust functionalities at FinexVault, where you can enjoy a smooth online banking experience, fortified transactions, and tailored financial insights. Our platform is meticulously crafted to elevate and personalize your banking journey, ensuring security and convenience at every step.
-                    </p>
-                </div>
+                <p className='text-sm md:w-[85%] lg:w-[80%] text-[#E4E4E7] text-justify pr-6'>
+                    Discover a myriad of robust functionalities at FinexVault, where you can enjoy a smooth online banking experience, fortified transactions, and tailored financial insights. Our platform is meticulously crafted to elevate and personalize your banking journey, ensuring security and convenience at every step.
+                </p>
                 <div className="w-full mt-6 flex md:flex-row flex-col gap-y-6 gap-x-12">
                     <div className="flex w-full md:w-[25%] h-fit md:flex-col rounded-lg gap-y-6 py-5 md:justify-normal justify-center gap-x-4 md:py-[48px] px-[24px] bg-[#262626]">
                         <p onClick={() => setFeature('online')} className={`text-sm text-center px-4 py-3 border border-gray-500 border-opacity-20 cursor-pointer rounded-full ${feature === 'online' ? 'bg-[#1c1c1c] text-emerald-500' : ''}`}>
