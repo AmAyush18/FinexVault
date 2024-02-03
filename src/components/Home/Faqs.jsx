@@ -14,7 +14,7 @@ const Faqs = () => {
                 <span className='text-orange-400'>Questions</span>
             </h1>
             <p className='text-sm md:w-[80%] text-[#E4E4E7]'>
-              Still you have any questions? Contact our team via amayush0818@gmail.com.
+              Still have any questions? Contact our team via amayush0818@gmail.com.
             </p>
             <div className="w-full flex flex-wrap justify-between mt-10">
               {
