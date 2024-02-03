@@ -19,7 +19,7 @@ const Faqs = () => {
             <div className="w-full flex flex-wrap justify-between mt-10">
               {
                 faqs.map((faq, index) => (
-                  <div className={`w-full ${index > 1 && !allFaqs && 'hidden'} md:w-[48%] px-[32px] py-[32px] mb-4 border border-gray-500 border-opacity-20 rounded-2xl`}>
+                  <div key={faq.id} className={`w-full ${index > 1 && !allFaqs && 'hidden'} md:w-[48%] px-[32px] py-[32px] mb-4 border border-gray-500 border-opacity-20 rounded-2xl`}>
                       <p className='text-[16px]'>
                           {faq.question}
                       </p>
