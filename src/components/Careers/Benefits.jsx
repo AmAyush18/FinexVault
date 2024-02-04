@@ -46,7 +46,7 @@ const Benefits = () => {
                 <p className='text-sm md:w-[85%] lg:w-[80%] text-[#E4E4E7] text-justify pr-6'>
                     At FinexVault, we prioritize the welfare and success of our team members. Our commitment extends to providing a robust array of benefits crafted to enhance both their personal and professional development.
                 </p>
-                <div className="mt-4 flex flex-wrap justify-between py-5 md:flex-row flex-col gap-y-4">
+                <div className="w-full mt-4 flex flex-wrap justify-between py-5 md:flex-row flex-col gap-y-4">
                     <div className="w-full flex justify-between flex-wrap">
                         {
                             benefits.map((benefit) => (
