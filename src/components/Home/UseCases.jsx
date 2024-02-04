@@ -86,25 +86,25 @@ const UseCases = () => {
                         <h2 className='text-2xl font-[500]'>
                             For Individuals
                         </h2>
-                        <p className='text-sm mt-2 text-[#B3B3B3] text-justify pr-6'>
+                        <p className='text-sm mt-2 text-[#B3B3B3] text-justify pr-2 md:pr-6'>
                             For individuals, our mortgage services pave the path to homeownership, while our adaptable personal loans offer crucial assistance throughout various life milestones. Additionally, we emphasize retirement planning, securing a financially sound future for our valued customers.
                         </p>
-                        <div className="w-full mt-10 flex justify-between gap-x-4">
-                            <div className="flex flex-col">
-                                <h1 className='text-3xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>64%</h1>
-                                <p className='text-sm mt-2 text-[#B3B3B3] pr-6'>
+                        <div className="w-full mt-10 flex justify-between gap-x-2 md:gap-x-4">
+                            <div className="w-[33%] flex flex-col">
+                                <h1 className='text-2xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>64%</h1>
+                                <p className='text-xs md:text-sm mt-2 text-[#B3B3B3] md:pr-6'>
                                     Secure Retirement Planning
                                 </p>
                             </div>
-                            <div className="flex flex-col">
-                                <h1 className='text-3xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>88%</h1>
-                                <p className='text-sm mt-2 text-[#B3B3B3] pr-6'>
+                            <div className="w-[33%] flex flex-col">
+                                <h1 className='text-2xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>88%</h1>
+                                <p className='text-xs md:text-sm mt-2 text-[#B3B3B3] md:pr-6'>
                                     Manageable Debt Consolidation
                                 </p>
                             </div>
-                            <div className="flex flex-col">
-                                <h1 className='text-3xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>92%</h1>
-                                <p className='text-sm mt-2 text-[#B3B3B3] pr-6'>
+                            <div className="w-[33%] flex flex-col">
+                                <h1 className='text-2xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>92%</h1>
+                                <p className='text-xs md:text-sm mt-2 text-[#B3B3B3] md:pr-6'>
                                     Reducing financial burdens
                                 </p>
                             </div>
@@ -121,25 +121,25 @@ const UseCases = () => {
                         <h2 className='text-2xl font-[500]'>
                             For Businesses
                         </h2>
-                        <p className='text-sm mt-2 text-[#B3B3B3] text-justify pr-6'>
+                        <p className='text-sm mt-2 text-[#B3B3B3] text-justify pr-2 md:pr-6'>
                             For businesses, we foster growth through working capital solutions that enhance cash flow optimization. Our customized financing options drive the expansion of your business. Whatever your financial aspirations, FinexVault is dedicated to offering the essential tools and support needed to attain them.
                         </p>
                         <div className="w-full mt-10 flex justify-between gap-x-4">
-                            <div className="flex flex-col">
-                                <h1 className='text-3xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>76%</h1>
-                                <p className='text-sm mt-2 text-[#B3B3B3] pr-6'>
+                            <div className="w-[33%] flex flex-col">
+                                <h1 className='text-2xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>76%</h1>
+                                <p className='text-xs md:text-sm mt-2 text-[#B3B3B3] md:pr-6'>
                                     Cash Flow Management
                                 </p>
                             </div>
-                            <div className="flex flex-col">
-                                <h1 className='text-3xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>83%</h1>
-                                <p className='text-sm mt-2 text-[#B3B3B3] pr-6'>
+                            <div className="w-[33%] flex flex-col">
+                                <h1 className='text-2xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>83%</h1>
+                                <p className='text-xs md:text-sm mt-2 text-[#B3B3B3] md:pr-6'>
                                     Drive Business Expansion
                                 </p>
                             </div>
-                            <div className="flex flex-col">
-                                <h1 className='text-3xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>59%</h1>
-                                <p className='text-sm mt-2 text-[#B3B3B3] pr-6'>
+                            <div className="w-[33%] flex flex-col">
+                                <h1 className='text-2xl md:text-4xl lg:text-5xl text-emerald-500 font-[600]'>59%</h1>
+                                <p className='text-xs md:text-sm mt-2 text-[#B3B3B3] md:pr-6'>
                                     Streamline payroll processing
                                 </p>
                             </div>
